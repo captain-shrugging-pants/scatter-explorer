@@ -4,6 +4,12 @@
 
 ### Below are the relevant details.
 
+- #### This package only needs ```numpy```, ```pandas```, ```matplotlib```, and ```ipywidgets```.
+  If not already present, run
+  ```
+  conda install -c conda-forge numpy pandas matplotlib ipywidgets
+  ```
+
 - #### Light-curve and Fourier amplitude spectra data format
 To be able to run ```demo_limited.ipynb```, lightcurves are stored in ```sample_data/LK/``` and their spectra in ```sample_data/PS/```. 
 
