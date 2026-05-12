@@ -1,4 +1,4 @@
-# With just a click, this package will display the light-curve and Fourier amplitude spectra of stars in your scatterplot. 
+# With just a click, this package will display the light-curve and its Fourier amplitude spectrum of any star in your scatterplot. 
 
 ## Directly run ```demo_limited.ipynb``` for a minimal running example to see the wonders of this widget.
 
