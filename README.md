@@ -28,7 +28,7 @@ def load_star(self, star: Star):
         time, flux = self.load_lightcurve(star.tic, star.pipecad)
         freq, ampl = self.load_powerspectrum(star.tic, star.pipecad)
 ```
-where star.tic gets the TIC-ID from the dataframe, and star.pipecad gets the author_cadence from the dataframe, allowing to load the file properly.
+where ```star.tic``` retrieves the "TIC-ID" string, and ```star.pipecad``` retrieves the "author_cadence" string, allowing to load the file correctly.
 
 - #### Dataframe containing various quantities to be plotted / annotated.
 An appropriate dataframe containing various quantities of interest for plotting purposes should be present in the ```sample_data``` folder. 
