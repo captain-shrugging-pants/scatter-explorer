@@ -5,10 +5,10 @@
 ### Below are the relevant details.
 
 - #### Light-curve and Fourier amplitude spectra data format
-To be able to run ```demo_limited.ipynb```, the necessary data is stored in ```sample_data/LK/``` and ```sample_data/PS/``` folders. 
+To be able to run ```demo_limited.ipynb```, lightcurves are stored in ```sample_data/LK/``` and their spectra in ```sample_data/PS/```. 
 
-To customize for your own catalog of stars, you must first download their lightcurves and compute their spectra, and store them in the appropriate format. 
-The filename format that ```scatter-explorer``` (this package!) works on is ```TIC-ID_author_cadence.npz```, for both the light-curves and their amplitude spectra.
+To customize for your own catalog of stars, you must first download their lightcurves and compute their spectra, and store them similarly. 
+```scatter-explorer``` (this package!) expects filename to be ```TIC-ID_author_cadence.npz```, for both the light-curves and their amplitude spectra.
 
 For e.g., below is how you'd load a lightcurve and its spectra, 
 ```
@@ -19,6 +19,7 @@ star_a = np.load(sample_data/PS/103692670_SPOC_120.npz)
 freq, ampl = star_a['time'], star_a['flux]
 
 ```
+"SPOC" being the author, "120" stands for 120-second cadence of the lightcurve.
 
 If you're used to saving your files differently, please do modify the relevant lines in ```stellar_explorer/loaders.py```. 
 I'm always used to saving in the above mentioned format. 
