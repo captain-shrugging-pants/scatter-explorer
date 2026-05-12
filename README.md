@@ -32,9 +32,9 @@ where star.tic gets the TIC-ID from the dataframe, and star.pipecad gets the aut
 
 - #### Dataframe containing various quantities to be plotted / annotated.
 An appropriate dataframe containing various quantities of interest for plotting purposes should be present in the ```sample_data``` folder. 
-As a trial, demo_dataframe.csv is the dataset uploaded for this purpose. 
+As a trial, ```sample_data/demo_dataframe.csv``` is the dataset uploaded for this purpose. 
 
+- #### Bonus -
+Users can specify the x and y axes to be log / linear, color-code the scatterplot with custom values, etc.
 
-
-
-Users can specify the axes to be log / linear, colorcode the scatterplot with custom values, etc.
+More to come!
