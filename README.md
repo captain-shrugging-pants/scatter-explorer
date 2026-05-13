@@ -7,7 +7,7 @@
 - #### This package only needs ```numpy```, ```pandas```, ```matplotlib```, ```ipyml```, and ```ipywidgets```.
   If not already present, run
   ```
-  conda install -c conda-forge numpy pandas matplotlib ipywidgets
+  conda install -c conda-forge numpy pandas matplotlib ipywidgets ipyml
   ```
 
 - #### Light-curve and Fourier amplitude spectra data format
